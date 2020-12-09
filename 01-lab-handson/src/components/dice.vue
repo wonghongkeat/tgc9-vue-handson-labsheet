@@ -14,6 +14,9 @@ export default {
         return{
             randomNumber: 0
         }
+
+
+        
     },
 
     methods: {
