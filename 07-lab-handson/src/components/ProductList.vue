@@ -34,8 +34,8 @@ data: function(){
             this.newProduct = ''
 
         },
-        deleteButton: function(product){
-            let indexDelete = this.product.indexOf(product);
+        deleteButton: function(i){
+            let indexDelete = this.product.indexOf(i);
             this.product.splice(indexDelete,1)
         },
         editButton: function(index){
